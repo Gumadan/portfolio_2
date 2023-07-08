@@ -15,7 +15,7 @@
             <div class="header_nav">
                 <a href="#!" class="logo">Kevin</a>
                 
-                <nav class="nav">
+                <nav id="nav" class="nav">
                     <ul class="nav-list">
                         <li class="nav-item"><a href="#!" class="nav-link active">Home</a></li>
                         <li class="nav-item"><a href="#!" class="nav-link">Works</a></li>
@@ -23,13 +23,17 @@
                         <li class="nav-item"><a href="#!" class="nav-link">About</a></li>
                         <li class="nav-item"><a href="#!" class="nav-link">Contact</a></li>
                     </ul>
+
+                    <button id="nav-btn" class="nav-button">
+                        <img id="nav-btn-img" src=".//img/icons/nav-open.svg" alt="Menu">
+                    </button>
                 </nav>
             </div>
 
             <!-- header content -->
             <div class="header-row">
                 <div class="header-content">
-                    <h1 class="header-heading">Kelvin Kramer<br> Designer & Developer</h1>
+                    <h1 class="header-heading">Kelvin Kramer<br> <span>Designer & Developer</span></h1>
                     <p>I’m a portrait, fashion and lifestyle photographer living In New York City. During my thirteen year tenure here.</p>                    
                 </div>
 
@@ -87,6 +91,29 @@
             </div>
         </div>
     </section>
+
+    <footer class="contacts">
+        <div class="container">
+            <div class="contacts-title">
+                <h2 class="title-1">Contacts</h2>
+            </div>
+            <div class="contacts-content">
+                <p>Want to know more or just chat?<br> You are welcome!</p>
+            </div>
+            <div class="contacts-button">
+                <a href="#!" class="btn">Send message</a>
+            </div>
+            <div class="contats-social">
+                <a href="#!"><img src="/img/socials/LinkedIn.svg" alt="LinkedIn"></a>
+                <a href="#!"><img src="/img/socials/Instargam.svg" alt="Instargam"></a>
+                <a href="#!"><img src="/img/socials/Behance.svg" alt="Behance"></a>
+                <a href="#!"><img src="/img/socials/Dribble.svg" alt="Dribble"></a>
+            </div>
+            <div class="contacts-footer">
+                <p>Like me on<br> LinkedIn, Instagram, Behance, Dribble</p>
+            </div>
+        </div>
+    </footer>
 
     <script src="./js/main.js"></script>
 </body>

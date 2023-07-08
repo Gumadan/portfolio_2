@@ -9,7 +9,7 @@ body {
 
 .container {
     max-width: 1230px;
-    padding: 0 30;
+    padding: 0 30px;
     margin: 0 auto;
 }
 
@@ -17,6 +17,28 @@ body {
     font-size: 34px;
     font-weight: 600;
 
+}
+
+.btn {
+    display: inline-block;
+    padding: 7px 22px;
+    background-color: #070707;
+    border-radius: 30px;
+    
+    font-size: 18px;
+    color: #FFF;
+
+    transition: background-color 0.2s ease-in, top 0.2s ease-in;
+}
+
+.btn:hover, .btn:focus{
+    background-color: #313131;
+}
+
+.btn:active {
+    position: relative;
+    top: 1px;
+    background-color: #000;
 }
 
 /* header */
@@ -62,6 +84,10 @@ body {
     gap: 50px;
     font-weight: 500;
     font-size: 14px;
+}
+
+.nav-button {
+    display: none;
 }
 
 .nav-link {
@@ -153,4 +179,38 @@ body {
     color: #000;
     text-decoration: underline;
 
+}
+
+/* footer */
+
+.contacts {
+    text-align: center;
+    padding: 90px 0;
+}
+.contacts-title {
+    margin-bottom: 40px;
+}
+
+.contacts-content {
+    margin-bottom: 40px;
+    font-size: 18px; 
+}
+
+.contacts-content p + p {
+    margin-top: 1em;
+}
+
+.contacts-button {
+    margin-bottom: 80px;
+}
+
+.contats-social {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.contacts-footer {
+    color: #828282;
 }
