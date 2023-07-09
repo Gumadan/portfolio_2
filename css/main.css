@@ -130,6 +130,13 @@ body {
 .services-row {
     display: flex;
     gap: 30px;
+    row-gap: 60px;
+    flex-wrap: wrap;
+}
+
+.servece-card {
+    flex: 1 1 0;
+    min-width: 315px;
 }
 
 .service-card-img {
@@ -192,7 +199,8 @@ body {
 }
 
 .contacts-content {
-    margin-bottom: 40px;
+    margin: 0 auto 40px;
+    max-width: 480px;
     font-size: 18px; 
 }
 
